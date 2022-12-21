@@ -1,7 +1,7 @@
 # phonebook
 
 ### Description
-A project to brush up on
+A simple phoebook api project to brush up on
 
 ``` 
 React
@@ -10,11 +10,6 @@ Express
 MongoDB
 ```
 
-Mostly because this semester/Interview prep took up too much time and I'm a bit rusty, recruiters if you're reading this just delete it from your memory. But, I'm probably going to swap out some technologies as I learn them. 
-
-> Man I think I can learn GraphQL/PostgreSQL/Docker/Redux/React native and make a project showcasing all of this in one month
->> Me, 17/12/2022
->>>Am I using too many quotes
 
 ## Available Scripts
 
