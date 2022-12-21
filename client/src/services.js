@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const server = "http://localhost:3001/persons";
+const server = "http://localhost:3001/api/v1/persons";
 
 const getAll = async () => {
-  const req = axios.get(server);
-  return req.then((response) => response.data);
+  const req = await axios.get(server);
+  return req.data
 };
 
 const addNumber = async (newPerson) => {
@@ -13,7 +13,6 @@ const addNumber = async (newPerson) => {
 };
 
 const deleteNumber = async (id) => {
-  console.log(id);
   const response = await axios.delete(`${server}/${id}`);
   console.log(response);
 };
